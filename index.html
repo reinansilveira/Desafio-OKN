@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="header-container">
+            <img src="/img/oknshoes.svg" alt="logo">
+            <div id="container-input">
+                <div class="input-pesquisa">
+                    <input type="text" placeholder="Procurando por algo específico?" class="pesquisar">
+                    <img src="/img/Group.svg" alt="logo pesquisar">
+                </div>
+                <img src="/img/shopping-bag.svg" alt="shopping-bag" class="shopping-icon">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="nav-container">
+            <nav class="nav-options">
+                <p class="option option-active" id="option-all">Todos os Produtos</p>
+                <p class="option" id="option-t-shirt">Camisetas</p>
+                <p class="option" id="option-mug">Canecas</p>
+            </nav>
+            <div class="nav-ordenation" id="ordenation-container">
+                <p class="toggle-trigger">Ordenar Por</p>
+                <img src="/img/Arrow.svg" alt="chevrow-linked" class="arrow-icon toggle-trigger">
+                <p id="highest-price" class="price-option">Maior Preço</p>
+                <p id="lowest-price" class="price-option">Menor Preço</p>
+            </div>
+        </section>
+
+        <section class="products-container">
+
+        </section>
+
+        <section class="button-section">
+            <div class="pagination-numbers"></div>
+            <button class="arrow-left"><img src="/img/PathLeft.svg" alt="arrow-left"></button>
+            <button class="arrow-right"><img src="/img/PathRight.svg" alt="arrow-right"></button>
+        </section>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+.button-section {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 7.125rem auto 3.75rem;
+    padding: 0 1rem;
+    gap: .2rem;
+}
+
+.button-section button {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    font-family: 'Saira', sans-serif;
+    cursor: pointer;
+    border: none;
+    color: #737380;
+}
+
+.button-section button:hover {
+    color: #FFA585;
+    border: 1px solid #FFA585;
+}
+
+.arrow-left {
+    margin-left: 8px;
+    color: #82828E;
+    height: 8px;
+    border-radius: 10px;
+    border: 1.5px solid;
+}
+
+.pagination-numbers {
+  display: flex;
+  gap: 8px;
+}
+
+.pagination-arrows {
+  display: flex;
+  gap: 8px;
+}
+
+.page-button, .arrow-left, .arrow-right {
+  background-color: #ECECEC;
+  border: none;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.page-button.active {
+  border: 2px solid #FFA585;
+  color: #FFA585;
+}
+
+@media(max-width:500px){
+  .button-section{
+    margin: 0;
+    padding: 0;
+  }
+}

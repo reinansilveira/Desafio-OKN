@@ -1,0 +1,29 @@
+@import url("/styles/header.css");
+@import url("/styles/navigation.css");
+@import url("/styles/product.css");
+@import url("/styles/button.css");
+
+:root {
+  --primary-blue: #5A87E9;
+  --secondary-blue: #4B67A6;
+}
+
+body {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--secondary-blue);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  max-width: 1120px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  main {
+    padding: .8rem 1rem;
+  }
+}
