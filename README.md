@@ -6,17 +6,21 @@
 
    git clone https://github.com/reinansilveira/Desafio-OKN.git
 
-2. Acesse o diretório da API
+2. Acesse o arquivo clonado
 
-   cd seu-repositorio/api
+   cd Desafio-OKN
 
-3. Instale as dependências
+3. Acesse o diretório da API
 
-  npm install
+   cd api
 
-4. Inicie o servidor
+4. Instale as dependências
 
-  npm run start
+   npm install
+
+5. Inicie o servidor
+
+   npm run start
 ```
 
 Visualização do Projeto
