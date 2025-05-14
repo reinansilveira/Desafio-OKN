@@ -1,27 +1,23 @@
-# Projeto NomeDoSeuProjeto
+# Projeto Desafio-OKN
 
 ## Instruções para executar o projeto
-
+```bash
 1. Clone o repositório:
 
-  ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/reinansilveira/Desafio-OKN.git
 
 2. Acesse o diretório da API
 
- ```bash
    cd seu-repositorio/api
 
 3. Instale as dependências
 
-   ```bash
   npm install
 
 4. Inicie o servidor
 
-  ```bash
   npm run start
-
+```
 
 Visualização do Projeto
 Após iniciar o servidor, volte para o diretório principal do projeto e abra o arquivo index.html no seu navegador de preferência.
